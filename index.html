@@ -1,13 +1,30 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="UTF-8">
 <title>My GitHub page</title>
+
+<script type="text/JavaScript">                                                                                                                                                    
+function sub() {    
+window.alert("Hello " + document.getElementById("name").value + "!!");
+}
+</script> 
+
 </head>
 
 <body>
-<form action="" method="get">
-Your Name: <input type="text" name="name">
-<input type="submit">
-</form></body>
+
+<H1> Welcome to My GitHub Pages </H1>
+
+
+<form action="" method="post">                                                                                                                                                     
+
+Your Name: <input type="text" name="name" id="name">                                                                                                                                
+
+<input type="submit" value="Click Me!" onCLick="sub()">                                                                                                                                           
+</form>
+
+</body>
+
 </html>
